@@ -38,5 +38,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("dev.tomazwang.adventofcodekt22.AppKt")
+    mainClass.set("dev.tomaz.aockt22.AppKt")
 }

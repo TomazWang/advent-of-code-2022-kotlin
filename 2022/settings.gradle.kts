@@ -7,5 +7,5 @@
  * in the user manual at https://docs.gradle.org/7.5.1/userguide/multi_project_builds.html
  */
 
-rootProject.name = "advent-of-code-2022-kotlin"
+rootProject.name = "dev.tomaz.aockt22"
 include("app")
