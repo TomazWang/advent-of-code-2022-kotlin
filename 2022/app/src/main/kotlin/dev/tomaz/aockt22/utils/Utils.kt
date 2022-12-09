@@ -8,3 +8,10 @@ fun readInput(dayNum:Int, fileName: String): List<String> {
     val rootDir = "app/res"
     return File("${rootDir}/${dayDir}", "$fileName").readLines()
 }
+
+fun readInputAsText(dayNum: Int, fileName:String): String {
+    val dayStr = dayNum.toString().padStart(2, '0')
+    val dayDir = "day${dayStr}"
+    val rootDir = "app/res"
+    return File("${rootDir}/${dayDir}", fileName).readText()
+}

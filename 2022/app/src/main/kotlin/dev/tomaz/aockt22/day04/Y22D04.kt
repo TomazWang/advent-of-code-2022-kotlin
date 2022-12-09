@@ -21,7 +21,7 @@ fun main() {
             when {
                 one.start <= other.start && one.end >= other.end -> 1
                 other.start <= one.start && other.end >= one.end -> 1
-                else -> 0.toInt()
+                else -> 0 as Int
             }
         }
 
